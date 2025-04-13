@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using System.Linq;
+
 using System.Windows.Forms;
 
 namespace LanguageLearningGame
@@ -11,7 +12,6 @@ namespace LanguageLearningGame
         private string[] englishWords;
         private Random random = new Random();
         public int setIndex;
-        //public int tempRandNum;
 
         public Form1()
         {
@@ -19,19 +19,18 @@ namespace LanguageLearningGame
             ParseFile();
         }
 
+        // Load the key.txt file and populate Spanish/English arrays
         private void ParseFile()
         {
             string filePath = Path.Combine(Application.StartupPath, "key.txt");
-            //MessageBox.Show("Looking for file at:\n" + Path.GetFullPath(filePath), "Debug Info");
 
             if (!File.Exists(filePath))
             {
-                MessageBox.Show("Error: key.txt not found! Meow!", "File Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error: key.txt not found!", "File Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
             string[] lines = File.ReadAllLines(filePath);
-
             spanishWords = new string[lines.Length];
             englishWords = new string[lines.Length];
 
@@ -51,48 +50,159 @@ namespace LanguageLearningGame
             return random.Next(0, spanishWords.Length);
         }
 
-        private void StartGameOne()
+        // MAIN NAVIGATION BUTTONS
+
+
+
+        private void progressButton_Click(object sender, EventArgs e)
         {
-            gameOneAnswerTxtBx.Enabled = true;
-            gameOneAnswerTxtBx.Visible = true;
-            gameOneTxtBxOne.Enabled = true;
-            gameOneTxtBxOne.Visible = true;
-
-            setIndex = GetRandomIndex();
-            gameOneTxtBxOne.Text = spanishWords[setIndex];
-
-            return;
+            panelContent.Controls.Clear();
+            ProgressBar progressBar = new ProgressBar
+            {
+                Value = 50, // Dummy value, replace with actual logic
+                Location = new System.Drawing.Point(150, 200),
+                Width = 300
+            };
+            panelContent.Controls.Add(progressBar);
         }
 
-        private bool IsCorrectAnswer(int index)
+        private void gameSelectButton_Click(object sender, EventArgs e)
         {
-            if (gameOneAnswerTxtBx.Text == englishWords[index].ToString())
-                return true;
-            else
-                return false;
+            ShowGameSelection();
+        }
+
+        private void settingsButton_Click(object sender, EventArgs e)
+        {
+            panelContent.Controls.Clear();
+            Label settingsLabel = new Label
+            {
+                Text = "Settings - Coming Soon!",
+                AutoSize = true,
+                Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold),
+                Location = new System.Drawing.Point(150, 200)
+            };
+            panelContent.Controls.Add(settingsLabel);
+        }
+
+
+
+        // PLAY BUTTON
+        private void playButton_Click(object sender, EventArgs e)
+        {
+            playButton.Visible = false;
+            ShowGameSelection();
+        }
+
+        // GAME SELECTION SCREEN
+        private void ShowGameSelection()
+        {
+            panelContent.Controls.Clear();
+
+            Button fillBlankBtn = new Button
+            {
+                Text = "Fill in the Blank",
+                Location = new System.Drawing.Point(150, 150),
+                Width = 150
+            };
+            fillBlankBtn.Click += (s, ev) => StartGameOne();
+
+            Button flashCardBtn = new Button
+            {
+                Text = "Flash Card",
+                Location = new System.Drawing.Point(150, 200),
+                Width = 150
+            };
+            flashCardBtn.Click += (s, ev) => StartFlashCardGame();
+
+            Button multiChoiceBtn = new Button
+            {
+                Text = "Multiple Choice",
+                Location = new System.Drawing.Point(150, 250),
+                Width = 150
+            };
+            multiChoiceBtn.Click += (s, ev) => StartMultipleChoiceGame();
+
+            panelContent.Controls.Add(fillBlankBtn);
+            panelContent.Controls.Add(flashCardBtn);
+            panelContent.Controls.Add(multiChoiceBtn);
+        }
+
+        // GAME ONE - Fill in the Blank
+        private void StartGameOne()
+        {
+            panelContent.Controls.Clear();
+
+            setIndex = GetRandomIndex();
+
+            Label spanishLabel = new Label
+            {
+                Text = spanishWords[setIndex],
+                Location = new System.Drawing.Point(150, 100),
+                Font = new System.Drawing.Font("Segoe UI", 12F),
+                AutoSize = true
+            };
+
+            TextBox answerBox = new TextBox
+            {
+                Name = "gameOneAnswerTxtBx",
+                Location = new System.Drawing.Point(150, 150),
+                Width = 200
+            };
+
+            Button checkAnswerBtn = new Button
+            {
+                Text = "Check Answer",
+                Location = new System.Drawing.Point(150, 200)
+            };
+            checkAnswerBtn.Click += (s, e) =>
+            {
+                string userInput = answerBox.Text.Trim();
+                if (userInput.Equals(englishWords[setIndex], StringComparison.OrdinalIgnoreCase))
+                    MessageBox.Show("Correct!");
+                else
+                    MessageBox.Show($"Incorrect. Correct answer: {englishWords[setIndex]}");
+            };
+
+            panelContent.Controls.Add(spanishLabel);
+            panelContent.Controls.Add(answerBox);
+            panelContent.Controls.Add(checkAnswerBtn);
+        }
+
+        // GAME TWO - Flash Card
+        private void StartFlashCardGame()
+        {
+            panelContent.Controls.Clear();
+            // TODO: Implement Flash Card game logic
+        }
+
+        // GAME THREE - Multiple Choice
+        private void StartMultipleChoiceGame()
+        {
+            panelContent.Controls.Clear();
+            // TODO: Implement Multiple Choice game logic
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // Optional: show welcome screen on load
+        }
+
+        private void homeButton_Click_1(object sender, EventArgs e)
+        {
+            panelContent.Controls.Clear();
+            Label welcomeLabel = new Label
+            {
+                Text = "Bienvenidos! Start your Spanish journey today.",
+                AutoSize = true,
+                Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic),
+                Location = new System.Drawing.Point(150, 200)
+            };
+            panelContent.Controls.Add(welcomeLabel);
         }
 
         private void exitButton_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
-        private void playButton_Click(object sender, EventArgs e)
-        {
-            playButton.Enabled = false;
-            playButton.Visible = false;
-            StartGameOne();
-        }
-
-        private void checkAnswerButton_Click(object sender, EventArgs e)
-        {
-            if (IsCorrectAnswer(setIndex))
-            {
-                MessageBox.Show("Correct!");
-            }
-            else
-                MessageBox.Show("Incorrect.");
-        }
-
     }
 }

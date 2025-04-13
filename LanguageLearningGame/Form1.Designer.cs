@@ -28,101 +28,181 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.exitButton = new System.Windows.Forms.Button();
-            this.playButton = new System.Windows.Forms.Button();
-            this.gameOneTxtBxOne = new System.Windows.Forms.TextBox();
-            this.checkAnswerButton = new System.Windows.Forms.Button();
-            this.gameOneAnswerTxtBx = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-15, -55);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(818, 612);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // exitButton
-            // 
-            this.exitButton.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.exitButton.Location = new System.Drawing.Point(713, 415);
-            this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(75, 23);
-            this.exitButton.TabIndex = 1;
-            this.exitButton.Text = "Bye bye!";
-            this.exitButton.UseVisualStyleBackColor = false;
-            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+            playButton = new Button();
+            checkAnswerButton = new Button();
+            contextMenuStrip1 = new ContextMenuStrip(components);
+            panelNav = new Panel();
+            exitButton = new Button();
+            settingsButton = new Button();
+            gameSelectButton = new Button();
+            progressButton = new Button();
+            homeButton = new Button();
+            panelContent = new Panel();
+            label1 = new Label();
+            pictureBox1 = new PictureBox();
+            panelNav.SuspendLayout();
+            panelContent.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            SuspendLayout();
             // 
             // playButton
             // 
-            this.playButton.Location = new System.Drawing.Point(387, 335);
-            this.playButton.Name = "playButton";
-            this.playButton.Size = new System.Drawing.Size(75, 23);
-            this.playButton.TabIndex = 2;
-            this.playButton.Text = "Play";
-            this.playButton.UseVisualStyleBackColor = true;
-            this.playButton.Click += new System.EventHandler(this.playButton_Click);
-            // 
-            // gameOneTxtBxOne
-            // 
-            this.gameOneTxtBxOne.Enabled = false;
-            this.gameOneTxtBxOne.Location = new System.Drawing.Point(164, 304);
-            this.gameOneTxtBxOne.Name = "gameOneTxtBxOne";
-            this.gameOneTxtBxOne.Size = new System.Drawing.Size(173, 23);
-            this.gameOneTxtBxOne.TabIndex = 3;
-            this.gameOneTxtBxOne.Visible = false;
+            playButton.Location = new Point(393, 545);
+            playButton.Margin = new Padding(6, 8, 6, 8);
+            playButton.Name = "playButton";
+            playButton.Size = new Size(161, 58);
+            playButton.TabIndex = 2;
+            playButton.Text = "Play";
+            playButton.UseVisualStyleBackColor = true;
+            playButton.Click += playButton_Click;
             // 
             // checkAnswerButton
             // 
-            this.checkAnswerButton.Location = new System.Drawing.Point(347, 415);
-            this.checkAnswerButton.Name = "checkAnswerButton";
-            this.checkAnswerButton.Size = new System.Drawing.Size(155, 23);
-            this.checkAnswerButton.TabIndex = 6;
-            this.checkAnswerButton.Text = "Check Answer";
-            this.checkAnswerButton.UseVisualStyleBackColor = true;
-            this.checkAnswerButton.Click += new System.EventHandler(this.checkAnswerButton_Click);
+            checkAnswerButton.Location = new Point(744, 1051);
+            checkAnswerButton.Margin = new Padding(6, 8, 6, 8);
+            checkAnswerButton.Name = "checkAnswerButton";
+            checkAnswerButton.Size = new Size(332, 58);
+            checkAnswerButton.TabIndex = 6;
+            checkAnswerButton.Text = "Check Answer";
+            checkAnswerButton.UseVisualStyleBackColor = true;
             // 
-            // gameOneAnswerTxtBx
+            // contextMenuStrip1
             // 
-            this.gameOneAnswerTxtBx.Enabled = false;
-            this.gameOneAnswerTxtBx.Location = new System.Drawing.Point(495, 304);
-            this.gameOneAnswerTxtBx.Name = "gameOneAnswerTxtBx";
-            this.gameOneAnswerTxtBx.Size = new System.Drawing.Size(164, 23);
-            this.gameOneAnswerTxtBx.TabIndex = 7;
-            this.gameOneAnswerTxtBx.Visible = false;
+            contextMenuStrip1.ImageScalingSize = new Size(24, 24);
+            contextMenuStrip1.Name = "contextMenuStrip1";
+            contextMenuStrip1.Size = new Size(61, 4);
+            // 
+            // panelNav
+            // 
+            panelNav.BackColor = SystemColors.ScrollBar;
+            panelNav.Controls.Add(exitButton);
+            panelNav.Controls.Add(settingsButton);
+            panelNav.Controls.Add(gameSelectButton);
+            panelNav.Controls.Add(progressButton);
+            panelNav.Controls.Add(homeButton);
+            panelNav.Dock = DockStyle.Left;
+            panelNav.Location = new Point(0, 0);
+            panelNav.Name = "panelNav";
+            panelNav.Size = new Size(94, 753);
+            panelNav.TabIndex = 9;
+            // 
+            // exitButton
+            // 
+            exitButton.Location = new Point(7, 638);
+            exitButton.Name = "exitButton";
+            exitButton.Size = new Size(62, 43);
+            exitButton.TabIndex = 13;
+            exitButton.TabStop = false;
+            exitButton.Text = "exit";
+            exitButton.UseVisualStyleBackColor = true;
+            exitButton.Click += exitButton_Click;
+            // 
+            // settingsButton
+            // 
+            settingsButton.Location = new Point(7, 555);
+            settingsButton.Name = "settingsButton";
+            settingsButton.Size = new Size(62, 43);
+            settingsButton.TabIndex = 12;
+            settingsButton.Text = "button6";
+            settingsButton.UseVisualStyleBackColor = true;
+            // 
+            // gameSelectButton
+            // 
+            gameSelectButton.Location = new Point(7, 233);
+            gameSelectButton.Name = "gameSelectButton";
+            gameSelectButton.Size = new Size(62, 43);
+            gameSelectButton.TabIndex = 10;
+            gameSelectButton.Text = "button3";
+            gameSelectButton.UseVisualStyleBackColor = true;
+            gameSelectButton.Click += gameSelectButton_Click;
+            // 
+            // progressButton
+            // 
+            progressButton.Location = new Point(3, 144);
+            progressButton.Name = "progressButton";
+            progressButton.Size = new Size(62, 43);
+            progressButton.TabIndex = 1;
+            progressButton.Text = "button2";
+            progressButton.UseVisualStyleBackColor = true;
+            progressButton.Click += progressButton_Click;
+            // 
+            // homeButton
+            // 
+            homeButton.AllowDrop = true;
+            homeButton.Location = new Point(12, 57);
+            homeButton.Name = "homeButton";
+            homeButton.Size = new Size(53, 43);
+            homeButton.TabIndex = 0;
+            homeButton.Text = "Home";
+            homeButton.UseVisualStyleBackColor = true;
+            homeButton.Click += homeButton_Click_1;
+            // 
+            // panelContent
+            // 
+            panelContent.BorderStyle = BorderStyle.Fixed3D;
+            panelContent.Controls.Add(label1);
+            panelContent.Controls.Add(pictureBox1);
+            panelContent.Controls.Add(playButton);
+            panelContent.Dock = DockStyle.Fill;
+            panelContent.Location = new Point(94, 0);
+            panelContent.Name = "panelContent";
+            panelContent.Size = new Size(1024, 753);
+            panelContent.TabIndex = 10;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Verdana", 14F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            label1.Location = new Point(91, 439);
+            label1.Name = "label1";
+            label1.Size = new Size(765, 34);
+            label1.TabIndex = 4;
+            label1.Text = "Bienvenidos! Start your Spanish journey today.";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(310, 144);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(384, 271);
+            pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox1.TabIndex = 3;
+            pictureBox1.TabStop = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.gameOneAnswerTxtBx);
-            this.Controls.Add(this.checkAnswerButton);
-            this.Controls.Add(this.gameOneTxtBxOne);
-            this.Controls.Add(this.playButton);
-            this.Controls.Add(this.exitButton);
-            this.Controls.Add(this.pictureBox1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(15F, 38F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1118, 753);
+            Controls.Add(panelContent);
+            Controls.Add(panelNav);
+            Controls.Add(checkAnswerButton);
+            Margin = new Padding(6, 8, 6, 8);
+            Name = "Form1";
+            Text = "Form1";
+            Load += Form1_Load;
+            panelNav.ResumeLayout(false);
+            panelContent.ResumeLayout(false);
+            panelContent.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion
-
-        private PictureBox pictureBox1;
-        private Button exitButton;
         private Button playButton;
-        private TextBox gameOneTxtBxOne;
         private Button checkAnswerButton;
-        private TextBox gameOneAnswerTxtBx;
+        private ContextMenuStrip contextMenuStrip1;
+        private Panel panelNav;
+        private Button gameSelectButton;
+        private Button progressButton;
+       
+        private Button exitButton;
+        private Button settingsButton;
+        private Panel panelContent;
+        private Label label1;
+        private PictureBox pictureBox1;
+        public Button homeButton;
     }
 }
