@@ -8,8 +8,8 @@ namespace LanguageLearningGame
 {
     public partial class Form1 : Form
     {
-        private string[] spanishWords;
-        private string[] englishWords;
+        private string[] spanishWords = Array.Empty<string>();
+        private string[] englishWords = Array.Empty<string>();
         private Random random = new Random();
         public int setIndex;
 
@@ -173,6 +173,54 @@ namespace LanguageLearningGame
         {
             panelContent.Controls.Clear();
             // TODO: Implement Flash Card game logic
+
+            //get a random word pair
+            setIndex = GetRandomIndex();
+
+            Label spanishLabel = new Label
+            {
+                Text = spanishWords[setIndex],
+                Location = new System.Drawing.Point(150, 100),
+                Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold),
+                AutoSize = true
+            };
+
+            Label englishLabel = new Label
+            {
+                Text = "???", //hidden initially
+                Location = new System.Drawing.Point(150, 150),
+                Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular),
+                AutoSize = true
+            };
+
+            Button showAnswerBtn = new Button
+            {
+                Text = "Show Answer",
+                Location = new System.Drawing.Point(150, 200),
+                Width = 120
+            };
+
+            showAnswerBtn.Click += (s, e) =>
+            {
+                englishLabel.Text = englishWords[setIndex];
+            };
+
+            Button nextCardBtn = new Button
+            {
+                Text = "Next Card",
+                Location = new System.Drawing.Point(280, 200),
+                Width = 100
+            };
+
+            nextCardBtn.Click += (s, e) =>
+            {
+                StartFlashCardGame(); // Reload this method for the next flashcard
+            };
+
+            panelContent.Controls.Add(spanishLabel);
+            panelContent.Controls.Add(englishLabel);
+            panelContent.Controls.Add(showAnswerBtn);
+            panelContent.Controls.Add(nextCardBtn);
         }
 
         // GAME THREE - Multiple Choice

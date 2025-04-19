@@ -8,23 +8,23 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\obinw\\.nuget\\packages\\": {},
+    "C:\\Users\\abiga\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\obinw\\OneDrive\\Desktop\\Lingua_Learn\\LanguageLearningGame\\LanguageLearningGame.csproj",
+      "projectUniqueName": "C:\\Users\\abiga\\source\\repos\\FinalProject\\visualProgramming\\LanguageLearningGame\\LanguageLearningGame.csproj",
       "projectName": "LanguageLearningGame",
-      "projectPath": "C:\\Users\\obinw\\OneDrive\\Desktop\\Lingua_Learn\\LanguageLearningGame\\LanguageLearningGame.csproj",
-      "packagesPath": "C:\\Users\\obinw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\obinw\\OneDrive\\Desktop\\Lingua_Learn\\LanguageLearningGame\\obj\\",
+      "projectPath": "C:\\Users\\abiga\\source\\repos\\FinalProject\\visualProgramming\\LanguageLearningGame\\LanguageLearningGame.csproj",
+      "packagesPath": "C:\\Users\\abiga\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\abiga\\source\\repos\\FinalProject\\visualProgramming\\LanguageLearningGame\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\obinw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\abiga\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -52,7 +52,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -76,7 +76,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
