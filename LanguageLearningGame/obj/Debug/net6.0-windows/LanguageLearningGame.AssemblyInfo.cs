@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LanguageLearningGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bdcd6d75f1b37b4646d6fbcf9f7e06fe07970c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57b2a4afa7b1669e78c10ea6eac115dad44ef1ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("LanguageLearningGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LanguageLearningGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

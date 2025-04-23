@@ -1,0 +1,100 @@
+I would like to make a reservation:Quisiera hacer una reserva
+Can you recommend a good restaurant?:¿Puedes recomendar un buen restaurante?
+The air conditioner isn't working:El aire acondicionado no funciona
+My luggage is lost:Mi equipaje está perdido
+Can I exchange currency here?:¿Puedo cambiar dinero aquí?
+What time does the train leave?:¿A qué hora sale el tren?
+Do you have any vegetarian dishes?:¿Tienen platos vegetarianos?
+I'm allergic to peanuts:Soy alérgico a los cacahuetes
+I need a taxi to the airport:Necesito un taxi al aeropuerto
+Can I pay by credit card?:¿Puedo pagar con tarjeta de crédito?
+I don't feel well:No me siento bien
+Where can I buy a SIM card?:¿Dónde puedo comprar una tarjeta SIM?
+How do I get to the museum?:¿Cómo llego al museo?
+Can you speak slower, please?:¿Puedes hablar más despacio, por favor?
+I'd like to check in:Me gustaría registrarme
+I'd like to check out:Me gustaría hacer el check-out
+Is breakfast included?:¿Está incluido el desayuno?
+What are your opening hours?:¿Cuál es su horario?
+Can I try this on?:¿Puedo probarme esto?
+Do you have this in another size?:¿Tiene esto en otra talla?
+Is there a discount?:¿Hay un descuento?
+That’s too expensive:Eso es demasiado caro
+What’s the Wi-Fi password?:¿Cuál es la contraseña del Wi-Fi?
+I’m just looking:Sólo estoy mirando
+Do you have a reservation?:¿Tiene una reserva?
+We’re fully booked:Estamos completamente llenos
+There is a mistake on the bill:Hay un error en la cuenta
+Do you have a map?:¿Tiene un mapa?
+Is this seat taken?:¿Está ocupado este asiento?
+Where can I park?:¿Dónde puedo aparcar?
+What documents do I need?:¿Qué documentos necesito?
+I need to go to the embassy:Necesito ir a la embajada
+Is it safe here?:¿Es seguro aquí?
+I missed my flight:Perdí mi vuelo
+Can I have a wake-up call?:¿Puedo tener una llamada de despertador?
+Do you offer room service?:¿Ofrecen servicio de habitaciones?
+Is there a pharmacy nearby?:¿Hay una farmacia cerca?
+I need to buy medicine:Necesito comprar medicinas
+What’s your address?:¿Cuál es tu dirección?
+The room is too noisy:La habitación es muy ruidosa
+I can’t connect to the internet:No puedo conectarme a Internet
+Can you show me on the map?:¿Puedes mostrarme en el mapa?
+When does it open?:¿Cuándo abre?
+When does it close?:¿Cuándo cierra?
+It’s urgent:Es urgente
+Can you repeat that?:¿Puedes repetir eso?
+I’m here on vacation:Estoy aquí de vacaciones
+This is my first time here:Es mi primera vez aquí
+I have a question:Tengo una pregunta
+Is there a hospital nearby?:¿Hay un hospital cerca?
+Can I speak with the manager?:¿Puedo hablar con el gerente?
+I don’t speak Spanish very well:No hablo muy bien español
+Can I use the restroom?:¿Puedo usar el baño?
+My car is broken:Mi coche está roto
+I need to make an appointment:Necesito hacer una cita
+What are the directions to the airport?:¿Cuáles son las direcciones al aeropuerto?
+Is there a supermarket nearby?:¿Hay un supermercado cerca?
+The food is cold:La comida está fría
+Can I have a refund?:¿Puedo tener un reembolso?
+I need a doctor urgently:Necesito un médico urgentemente
+Where is the nearest hospital?:¿Dónde está el hospital más cercano?
+What time does the train leave?:¿A qué hora sale el tren?
+Is there a waiting list?:¿Hay una lista de espera?
+Tom apologized on Monday.:Tom se disculpó el lunes.
+Tom arrived at the hotel.:Tom llegó al hotel.
+Tom arrived home at 2:30.:Tom llegó a casa a las dos y media.
+Tom arrived this morning.:Tom llegó esta mañana.
+Tom asked for a discount.:Tom pidió un descuento.
+Tom asked for directions.:Tom pidió direcciones.
+Tom asked for some money.:Tom pidió algo de dinero.
+Tom attended the wedding.:Tom asistió a la boda. 
+Tom bet $300 on the game.:Tom apostó $300 dólares en el juego.
+Tom bet $300 on the race.:Tom apostó $300 dólares en la carrera.
+Tom bought Mary a camera.:Tom le compró una cámara a Mary.
+Tom bought a used Toyota.:Tom se compró un Toyota usado.
+Tom bowed to his teacher.:Tom se inclinó ante su profesor.
+Tom broke down and cried.:Tom se derrumbó y lloró.
+Tom buttoned up his coat.:Tom se abrochó su abrigo.
+Tom buttoned up his coat.:Tom se abotonó su abrigo. 
+Tom called Mary an idiot.:Tomás la llamó idiota a María.
+Tom called a taxi for me.:Tom llamó un taxi para mí.
+Tom came after Mary left.:Tom vino después de que se fuera Mary.
+Tom came here by himself.:Tom vino aquí por sí solo.
+Tom came here on his own.:Tom vino aquí por sí solo. 
+Tom can swim like a fish.:Tom puede nadar como un pez.
+Tom can't find his shoes.:Tom no encuentra sus zapatos.
+Tom can't find his watch.:Tom no es capaz de encontrar su reloj.
+Tom catches colds easily.:Tom se resfría con facilidad. 
+Tom comes here every day.:Tom viene aquí todos los días. 
+Tom cut the pear in half.:Tom cortó la pera por la mitad.
+Tom decided to study law.:Tom decidió estudiar leyes.
+Tom decided to study law.:Tom decidió estudiar Derecho.
+Tom deserves a promotion.:Tom merece un ascenso.
+Tom did an excellent job.:Tom hizo un excelente trabajo.
+Tom did as you suggested.:Tom lo hizo como le sugeriste.
+Tom did his own research.:Tom investigó por su cuenta.
+Tom did okay on the test.:Tom hizo bien el examen.
+Tom did outstanding work.:Tom hizo un trabajo destacado. 
+Tom didn't have a pencil.:Tom no tenía lápiz.
+Tom didn't make it clear.:Tom no lo dejó claro. 

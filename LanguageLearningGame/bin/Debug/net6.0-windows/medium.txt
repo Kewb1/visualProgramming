@@ -1,0 +1,137 @@
+Nice to meet you:Mucho gusto
+What time is it?:¿Qué hora es?
+Where are you from?:¿De dónde eres?
+I'm from...:Soy de...
+I am learning Spanish:Estoy aprendiendo español
+Can you help me?:¿Puedes ayudarme?
+I need a doctor:Necesito un médico
+Call the police:Llama a la policía
+Where is the hotel?:¿Dónde está el hotel?
+Turn left:Gira a la izquierda
+Turn right:Gira a la derecha
+Go straight:Sigue recto
+What does this mean?:¿Qué significa esto?
+I don't know:No lo sé
+I forgot:Me olvidé
+I remember:Me acuerdo
+What's your favorite color?:¿Cuál es tu color favorito?
+My favorite color is blue:Mi color favorito es azul
+I like music:Me gusta la música
+Do you like sports?:¿Te gustan los deportes?
+It's raining:Está lloviendo
+It's sunny:Hace sol
+It's cold today:Hace frío hoy
+I'm hungry:Tengo hambre
+I'm thirsty:Tengo sed
+I’m tired:Estoy cansado
+Be careful:Ten cuidado
+Good luck:Buena suerte
+Congratulations:Felicidades
+Happy birthday:Feliz cumpleaños
+Merry Christmas:Feliz Navidad
+See you later:Hasta luego
+See you tomorrow:Hasta mañana
+Welcome:Bienvenido
+Bathroom is over there:El baño está allá
+Can I help you?:¿Puedo ayudarte?
+I’m lost:Estoy perdido
+What do you want to do?:¿Qué quieres hacer?
+I’m looking for the train station:Estoy buscando la estación de tren
+Let's go:Vamos
+Wait a moment:Espera un momento
+What happened?:¿Qué pasó?
+Everything is fine:Todo está bien
+Don’t worry:No te preocupes
+I'm busy:Estoy ocupado
+Can I have the menu?:¿Puedo ver el menú?
+Check, please:La cuenta, por favor
+I would like...:Quisiera...
+That was delicious:Estuvo delicioso
+Where is the nearest bus station?:¿Dónde está la estación de autobuses más cercana?
+I have a reservation:Tengo una reserva
+How much is a ticket?:¿Cuánto cuesta un billete?
+Can I pay by credit card?:¿Puedo pagar con tarjeta de crédito?
+Do you accept cash?:¿Aceptan efectivo?
+I need a taxi:Necesito un taxi
+How far is it?:¿Qué tan lejos está?
+Is it far?:¿Está lejos?
+Is it close?:¿Está cerca?
+How do I get to the airport?:¿Cómo llego al aeropuerto?
+The weather is nice:El tiempo está bonito
+I need a drink:Necesito una bebida
+Can I get the bill?:¿Puedo obtener la cuenta?
+Do you have vegetarian food?:¿Tienen comida vegetariana?
+I’m allergic to nuts:Soy alérgico a los frutos secos
+How long will it take?:¿Cuánto tiempo tomará?
+I will be back in an hour:Volveré en una hora
+Where can I buy a SIM card?:¿Dónde puedo comprar una tarjeta SIM?
+I’m feeling sick:Me siento mal
+Can I have a glass of water?:¿Puedo tener un vaso de agua?
+What is your phone number?:¿Cuál es tu número de teléfono?
+I’m from the United States:Yo soy de los Estados Unidos
+I don’t like this:No me gusta esto
+What do you recommend?:¿Qué me recomiendas?
+Is there a good restaurant nearby?:¿Hay un buen restaurante cerca?
+I need a doctor:Necesito un médico
+Can I borrow your phone?:¿Puedo usar tu teléfono?
+What is your address?:¿Cuál es tu dirección?
+Can you show me the way?:¿Puedes mostrarme el camino?
+Smith was an honest man.:Smith era un hombre honesto.
+So, where's the problem?:¿Entonces dónde está el problema?
+Some changes are needed.:Se necesitan algunos cambios.  
+Somebody missed the dog.:Alguien echaba de menos al perro.
+Someone is watching you.:Alguien te está mirando.
+Someone opened the door.:Alguien abrió la puerta.
+Someone should tell Tom.:Alguien debería decírselo a Tom.
+Someone stole Tom's car.:Alguien ha robado el carro de Tom.
+Someone stole my wallet.:Alguien me robó la cartera.    
+Sorry for all the typos.:Perdón por todos los errores ortográficos.
+Sorry for the intrusion.:Perdone la intrusión.
+Sorry, we're full today.:Lo lamento, hoy estamos llenos.
+Sorry, what's your name?:Perdona, ¿cómo te llamas? 
+Spell your name, please.:Por favor, deletree su nombre.
+Squirrels eat hazelnuts.:Las ardillas comen avellanas.
+Stay a while and listen.:Quédate un rato y escucha.
+Stay away from the door.:¡Mantente alejado de la puerta!
+Stay away from the fire.:Manténgase lejos del fuego.
+Stay out of my business.:No te metas en mis asuntos.
+Stay quiet for a moment.:Quédese quieto por un momento.  
+Study English every day.:Estudia inglés todos los días. 
+Sunday follows Saturday.:Después del sábado viene el domingo.
+Swimming is easy for me.:Nadar es fácil para mí.
+Sydney is far from here.:Sidney está lejos de aquí.
+Take a look at this map.:Fíjate en este mapa.
+Take care of yourselves!:¡Cuídense!
+Take that off your head.:Sacate eso de la cabeza. 
+Take the money with you.:Lleve usted el dinero consigo.
+Take things as they are.:Acepta las cosas como son.
+Take whichever you want.:Toma el que quieras.
+Teach me how to do that.:Enséñame como hacer eso.
+Tell Tom to take a seat.:Dile a Tom que se vaya a sentar.
+Tell her that I am busy.:Dile que estoy ocupado.
+Tell her that I am sick.:Dile que estoy enfermo.
+Tell me about your plan.:Háblame acerca de tu plan.
+Tell me about your wife.:Cuéntame acerca de tu esposa.
+Tell me all the details.:Cuénteme todos los detalles.
+Tell me what's going on.:Cuéntame qué pasa.
+Thank you for breakfast.:Gracias por el desayuno.
+Thank you for listening.:Gracias por escuchar.
+Thank you for your gift.:Gracias por el regalo.
+Thank you for your help.:Gracias por su ayuda.
+Thank you for your time.:Gracias por su tiempo.
+Thanks for sharing that.:Gracias por compartirlo.
+Thanks for sharing this.:Gracias por compartirlo.
+Thanks for your concern.:Gracias por preocuparte de mí.
+Thanks for your support.:Gracias por tu apoyo.
+That applies to him too.:Eso aplica para él también.
+That book is a new book.:Ese libro es un libro nuevo.
+That boy has black hair.:Ese chico tiene el pelo negro.
+That boy is intelligent.:Ese chico es inteligente.
+That boy showed no fear.:Ese muchacho no mostró ningún temor.
+That cake was delicious.:Ese pastel estaba delicioso.
+That candle isn't white.:Esa vela no es blanca.
+That changed everything.:Eso cambió todo.
+That changes everything.:Eso lo cambia todo.
+That coffee smells good.:Ese café huele bien.
+That couldn't be helped.:Eso no pudo evitarse.
+That doesn't make sense.:Eso no tiene sentido.

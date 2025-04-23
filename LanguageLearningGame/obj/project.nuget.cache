@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "XbkGs12WJFE=",
+  "dgSpecHash": "ICX6q1olAqk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\abiga\\source\\repos\\FinalProject\\visualProgramming\\LanguageLearningGame\\LanguageLearningGame.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Owner\\OneDrive\\Desktop\\ligua\\visualProgramming\\LanguageLearningGame\\LanguageLearningGame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Owner\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\Owner\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\Owner\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\Owner\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.33\\microsoft.netcore.app.host.win-x64.6.0.33.nupkg.sha512"
+  ],
   "logs": []
 }

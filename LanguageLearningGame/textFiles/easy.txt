@@ -1,0 +1,100 @@
+Hello:Hola
+Goodbye:Adiós
+Please:Por favor
+Thank you:Gracias
+Yes:Sí
+No:No
+Excuse me:Perdón
+I'm sorry:Lo siento
+Good morning:Buenos días
+Good night:Buenas noches
+How are you?:¿Cómo estás?
+I'm fine:Estoy bien
+What is your name?:¿Cómo te llamas?
+My name is...:Me llamo...
+I don't understand:No entiendo
+Do you speak English?:¿Hablas inglés?
+Help!:¡Ayuda!
+Where is the bathroom?:¿Dónde está el baño?
+How much does it cost?:¿Cuánto cuesta?
+Why?:¿por que?
+I love you:Te quiero
+Friend:Amigo
+Family:Familia
+Water:Agua
+Food:Comida
+House:Casa
+Dog:Perro
+Cat:Gato
+Car:Coche
+Book:Libro
+Pen:Bolígrafo
+School:Escuela
+Teacher:Profesor
+Student:Estudiante
+Happy:Feliz
+Sad:Triste
+Big:Grande
+Small:Pequeño
+Fast:Rápido
+Slow:Lento
+Today:Hoy
+Tomorrow:Mañana
+Yesterday:Ayer
+Hot:Caliente
+Cold:Frío
+Open:Abrir
+Close:Cerrar
+Walk:Caminar
+Run:Correr
+Eat:Comer
+Drink:Beber
+Love:Amor
+Money:Dinero
+Phone:Teléfono
+Computer:Computadora
+Internet:Internet
+Friendship:Amistad
+Work:Trabajo
+Play:Jugar
+Sing:Cantar
+Dance:Bailar
+Read:Leer
+Write:Escribir
+Sleep:Dormir
+Wake up:Despertarse
+Go:Saltar
+Jump:Saltar
+Play:Jugar
+Cry:Llorar
+Laugh:Reír
+Sing:Cantar
+Smile:Sonreír
+Listen:Escuchar
+Listen!:¡Escuchar!
+See:Ver
+Hear:Oír
+Talk:Hablar
+Walk:Caminar
+Drive:Manejar
+Fly:Volar
+Swim:Nadar
+Sit:Sentar
+Stand:Levantar
+Run:Correr
+Cook:Cocinar
+Buy:Comprar
+Sell:Vender
+Travel:Viajar
+Wait:Esperar
+Stop:Parar
+Start:Empezar
+Finish:Terminar
+Begin:Comenzar
+Finish:Acabar
+Tomorrow:Mañana
+Yesterday:Ayer
+Today:Hoy
+Morning:Mańana
+Night:Noche
+Afternoon:Tarde
