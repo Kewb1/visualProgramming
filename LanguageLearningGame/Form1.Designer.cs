@@ -202,7 +202,6 @@
         private Button checkAnswerButton;
         private ContextMenuStrip contextMenuStrip1;
         private Panel panelNav;
-        private Button gameSelectButton;
         private Button progressButton;
        
         private Button exitButton;
