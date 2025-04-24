@@ -171,7 +171,7 @@ namespace LanguageLearningGame
                     englishWords.Add(parts[0].Trim());
                 }
             }
-            
+
             SetupQuestion();
             reader.Close();
         }
@@ -244,7 +244,12 @@ namespace LanguageLearningGame
 
         private void Game_FormClosing(object sender, FormClosingEventArgs e)
         {
-            selectionpage.Close();          
+            selectionpage.Close();
+        }
+
+        private void answerTextBox_TextChanged(object sender, EventArgs e)
+        {
+            UserAnswer= answerTextBox.Text;
         }
     }
 }

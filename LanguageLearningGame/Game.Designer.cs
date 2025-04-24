@@ -106,6 +106,7 @@
             answerTextBox.TabIndex = 4;
             answerTextBox.Text = "Type Your Answer Here...";
             answerTextBox.Visible = false;
+            answerTextBox.TextChanged += answerTextBox_TextChanged;
             // 
             // pictureBox1
             // 
