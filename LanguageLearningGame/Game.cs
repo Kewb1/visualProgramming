@@ -244,7 +244,7 @@ namespace LanguageLearningGame
 
         private void Game_FormClosing(object sender, FormClosingEventArgs e)
         {
-            selectionpage.Close();
+            selectionpage.Close();          
         }
     }
 }
