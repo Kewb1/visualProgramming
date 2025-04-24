@@ -171,8 +171,9 @@ namespace LanguageLearningGame
                     englishWords.Add(parts[0].Trim());
                 }
             }
-
+            
             SetupQuestion();
+            reader.Close();
         }
 
         private void homeButton_Click(object sender, EventArgs e)
