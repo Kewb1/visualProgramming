@@ -12,9 +12,14 @@ namespace LanguageLearningGame
 {
     public partial class Game : Form
     {
+        // translation vars
         private List<string> spanishWords = new List<string>();
         private List<string> englishWords = new List<string>();
+
+        // random var
         private Random random = new Random();
+
+        // game mechanic vars
         public int setIndex;
         public string game = "";
         public string difficulty = "";
@@ -23,12 +28,16 @@ namespace LanguageLearningGame
         public int correct = 0;
         public string UserAnswer = "";
         public string CorrectAnswer = "";
+
+        // form vars
         public Form homepage;
         public Form selectionpage;
 
         public Game(string gameType, string Difficulty, Form homePageInput, Form selectionPageInput)
         {
             InitializeComponent();
+
+            // Initialize game type, difficulty, and form/page vars
             game = gameType;
             difficulty = Difficulty;
             homepage = homePageInput;
@@ -117,12 +126,17 @@ namespace LanguageLearningGame
         //USE THIS TO DECIDE THE COMPONENTS THAT APPEAR DURING THE GAME TIME
         private void Form2_Load(object sender, EventArgs e)
         {
+            // set up game depending on game type
             if (game == "FITB")
             {
+                //enable and show option text box
                 answerTextBox.Enabled = true;
                 answerTextBox.Visible = true;
+
+                // focus on the text box
                 answerTextBox.Focus();
 
+                // disable and hide option buttons
                 option1.Enabled = false;
                 option1.Visible = false;
                 option2.Enabled = false;
@@ -134,9 +148,11 @@ namespace LanguageLearningGame
             }
             else
             {
+                // disable and hide text box
                 answerTextBox.Enabled = false;
                 answerTextBox.Visible = false;
 
+                // enable and show option buttons
                 option1.Enabled = true;
                 option1.Visible = true;
                 option2.Enabled = true;
@@ -147,6 +163,7 @@ namespace LanguageLearningGame
                 option4.Visible = true;
             }
 
+            // filename var
             string fileName = "";
 
             // Determine which file to load based on difficulty
@@ -157,7 +174,10 @@ namespace LanguageLearningGame
             else if (difficulty == "Hard")
                 fileName = "hard.txt";
 
+            // set up stream reader
             StreamReader reader = new StreamReader(fileName);
+
+            // variable to hold the lin eof text
             string line;
 
             // Read the file line by line until the end
@@ -165,6 +185,8 @@ namespace LanguageLearningGame
             {
                 // Split the line by the colon separator
                 string[] parts = line.Split(':');
+
+                //put english and spanish word from text into the array
                 if (parts.Length == 2)
                 {
                     spanishWords.Add(parts[1].Trim());
@@ -172,47 +194,63 @@ namespace LanguageLearningGame
                 }
             }
 
+            // shuffle for a new question
             SetupQuestion();
+
+            // close the file
             reader.Close();
         }
 
         private void homeButton_Click(object sender, EventArgs e)
         {
+            //clear arrays
             spanishWords.Clear();
             englishWords.Clear();
+
+            // show the home page
             homepage.Show();
+
+            // hide this page
             this.Hide();
         }
 
         private void questionText_Click(object sender, EventArgs e)
         {
+            // change user answer
             UserAnswer = answerTextBox.Text;
         }
 
         private void option1_Click(object sender, EventArgs e)
         {
+            // change user answer
             UserAnswer = option1.Text;
         }
 
         private void option2_Click(object sender, EventArgs e)
         {
+            // change user answer
             UserAnswer = option2.Text;
         }
 
         private void option3_Click(object sender, EventArgs e)
         {
+            // change user answer
             UserAnswer = option3.Text;
         }
 
         private void option4_Click(object sender, EventArgs e)
         {
+            // change user answer
             UserAnswer = option4.Text;
         }
 
         private void SubmitButton_Click(object sender, EventArgs e)
         {
+            // display a error if the user hasnt put in an answer, else handle answer 
             if (UserAnswer == "Type Your Answer Here..." || UserAnswer == "")
             {
+
+                // display different error message based on game type
                 if (game == "FITB")
                 {
                     MessageBox.Show("Please Type In Your Answer");
@@ -225,18 +263,32 @@ namespace LanguageLearningGame
             }
             else if (UserAnswer != CorrectAnswer)
             {
+                // display the message 
                 MessageBox.Show("Incorrect! The correct answer was : " + CorrectAnswer);
+
+                // increment 
                 count++;
+
+                // set question counter text
                 questionCount.Text = count.ToString() + " Questions Answered";
+
+                // shuffle again for new question
                 SetupQuestion();
             }
             else
             {
+                // display the message 
                 MessageBox.Show("Correct! Keep Going!");
+
+                // increment
                 count++;
                 correct++;
+
+                // set both question counter texts
                 questionCount.Text = count.ToString() + " Questions Answered";
                 correctCount.Text = correct.ToString() + " Questions Correct";
+
+                // shuffle again for new question
                 SetupQuestion();
             }
 
@@ -244,11 +296,13 @@ namespace LanguageLearningGame
 
         private void Game_FormClosing(object sender, FormClosingEventArgs e)
         {
+            // close selection page when this page is closing
             selectionpage.Close();
         }
 
         private void answerTextBox_TextChanged(object sender, EventArgs e)
         {
+            // set the use answer to the text in the answer text box
             UserAnswer= answerTextBox.Text;
         }
     }

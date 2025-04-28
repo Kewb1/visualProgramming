@@ -17,16 +17,21 @@ namespace LanguageLearningGame
             InitializeComponent();
         }
 
-
         private void exitButton_Click(object sender, EventArgs e)
         {
+            // close when exit button is pressed
             this.Close();
         }
 
         private void playButton_Click(object sender, EventArgs e)
         {
+            // create selection page, and pass home page
             Selection Selection = new Selection(this);
+
+            // open selection page
             Selection.Show();
+
+            // hide this page
             this.Hide();
         }
     }
